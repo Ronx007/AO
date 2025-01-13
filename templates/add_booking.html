@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Booking</title>
+</head>
+<body>
+  <h1>Add Booking</h1>
+  <form action="http://localhost:5000/api/bookings" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required pattern="[A-Za-z]+" title="First name should only contain letters."><br>
+    
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required pattern="[A-Za-z]+" title="Last name should only contain letters."><br>
+    
+    <label for="phone_no">Phone Number:</label><br>
+    <input type="tel" id="phone_no" name="phone_no" required pattern="\d{10,15}" title="Phone number should be between 10 to 15 digits."><br>
+    
+    <label for="booking_date">Booking Date (within this year):</label><br>
+    <input type="date" id="booking_date" name="booking_date" required min="{{ current_year }}-01-01" max="{{ current_year }}-12-31"><br>
+    
+    <label for="exit_date">Exit Date (within this year):</label><br>
+    <input type="date" id="exit_date" name="exit_date" required min="{{ current_year }}-01-01" max="{{ current_year }}-12-31"><br>
+    
+    <label for="booking_size">Booking Size:</label><br>
+    <input type="number" id="booking_size" name="booking_size" required min="1" title="Booking size should be a positive integer."><br>
+    
+    <label for="destination">Destination:</label><br>
+    <select id="destination" name="destination" required>
+      <option value="Paris">Paris</option>
+      <option value="New York">New York</option>
+      <option value="Tokyo">Tokyo</option>
+      <option value="London">London</option>
+    </select><br>
+    
+    <label for="hotel">Hotel:</label><br>
+    <select id="hotel" name="hotel" required>
+      <option value="Hilton">Hilton</option>
+      <option value="Marriott">Marriott</option>
+      <option value="Sheraton">Sheraton</option>
+      <option value="Hyatt">Hyatt</option>
+    </select><br>
+    
+    <label for="guide">Guide:</label><br>
+    <input type="checkbox" id="guide" name="guide" value="yes"> Yes<br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

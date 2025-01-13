@@ -1,0 +1,26 @@
+[
+    {
+        "booking_id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_no": "+123456789",
+        "booking_date": "2024-04-17",
+        "exit_date": "2024-04-19",
+        "booking_size": 2,
+        "destination": "Paris",
+        "hotel": "Grand Hotel",
+        "guide": "Alice"
+    },
+    {
+        "booking_id": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_no": "+987654321",
+        "booking_date": "2024-04-18",
+        "exit_date": "2024-04-20",
+        "booking_size": 3,
+        "destination": "Rome",
+        "hotel": "Hotel Roma",
+        "guide": "Marco"
+    }
+]

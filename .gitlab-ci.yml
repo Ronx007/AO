@@ -1,0 +1,24 @@
+stages:
+  - install
+  - test
+
+variables:
+  FLASK_ENV: development
+
+install_dependencies:
+  stage: install
+  script:
+    - echo "Installing dependencies"
+    - python -m venv venv
+    - source venv/Scripts/activate
+    - pip install -r requirements.txt
+
+run_tests:
+  stage: test
+  script:
+    - echo "Running tests"
+    - source venv/Scripts/activate
+    - pytest --junitxml=test-results.xml
+  artifacts:
+    paths:
+      - test-results.xml

@@ -1,0 +1,110 @@
+[
+  {
+    "booking_id": "1",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone_no": "1234567890",
+    "booking_date": "2023-03-01",
+    "exit_date": "2023-03-05",
+    "booking_size": 2,
+    "destination": "Paris",
+    "hotel": "Hilton",
+    "guide": "Yes"
+  },
+  {
+    "booking_id": "2",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "phone_no": "0987654321",
+    "booking_date": "2023-03-10",
+    "exit_date": "2023-03-15",
+    "booking_size": 3,
+    "destination": "London",
+    "hotel": "Marriott",
+    "guide": "No"
+  },
+  {
+    "booking_id": "50e19353-6f32-4645-9244-4b5d048c381b",
+    "first_name": "Thomas",
+    "last_name": "Shelby",
+    "phone_no": "+971509658147",
+    "booking_date": "2024-04-23 00:00:00",
+    "exit_date": "2024-04-30 00:00:00",
+    "booking_size": "2",
+    "destination": "Nordschleife",
+    "hotel": "Nurburg Hotel",
+    "guide": "No"
+  },
+  {
+    "booking_id": "d88c9ba7-5181-434a-9048-2cc88384eda8",
+    "first_name": "Dean",
+    "last_name": "Murray",
+    "phone_no": "+971556627745",
+    "booking_date": "2024-05-07 00:00:00",
+    "exit_date": "2024-06-11 00:00:00",
+    "booking_size": "3",
+    "destination": "Poland",
+    "hotel": "Ski Inn",
+    "guide": "Yes"
+  },
+  {
+    "booking_id": "513ab863-ed7d-43c1-9936-f7f053d8db71",
+    "first_name": "Gerard",
+    "last_name": "Donald",
+    "phone_no": "+3168502214",
+    "booking_date": "2024-04-01 00:00:00",
+    "exit_date": "2024-04-17 00:00:00",
+    "booking_size": "5",
+    "destination": "Los Angeles",
+    "hotel": "Maria Motel",
+    "guide": "No"
+  },
+  {
+    "booking_id": "8720b3d0-acc8-42fa-8b92-bbe1a20561d5",
+    "first_name": "Veron",
+    "last_name": "Afonso",
+    "phone_no": "05096588556",
+    "booking_date": "3222-03-23 00:00:00",
+    "exit_date": "0043-03-03 00:00:00",
+    "booking_size": 1,
+    "destination": "wdwda e1222",
+    "hotel": "1123313",
+    "guide": "1313232 "
+  },
+  {
+    "booking_id": "da6e7105-3357-49c7-8b7d-e5a0066c765c",
+    "first_name": "Veron",
+    "last_name": "Afonso",
+    "phone_no": "05096588556",
+    "booking_date": "2024-07-23 00:00:00",
+    "exit_date": "2024-12-03 00:00:00",
+    "booking_size": 1,
+    "destination": "wdwda e1222",
+    "hotel": "1123313",
+    "guide": true
+  },
+  {
+    "booking_id": "c2da41f4-e425-4b71-969f-5ba03a93ed91",
+    "first_name": "Ronald",
+    "last_name": "Daemon",
+    "phone_no": "97560986676",
+    "booking_date": "2024-06-11 00:00:00",
+    "exit_date": "2024-07-11 00:00:00",
+    "booking_size": 2,
+    "destination": "Tokyo",
+    "hotel": "Hyatt",
+    "guide": true
+  },
+  {
+    "booking_id": "be87441a-cd13-409a-a564-a0a749914802",
+    "first_name": "vo",
+    "last_name": "uof",
+    "phone_no": "0606060606",
+    "booking_date": "2024-06-05 00:00:00",
+    "exit_date": "2024-06-03 00:00:00",
+    "booking_size": 1,
+    "destination": "Paris",
+    "hotel": "Hilton",
+    "guide": true
+  }
+]
