@@ -1,24 +1,21 @@
+image: python:3.9
+
+before_script:
+  - apt-get update -qq
+  - apt-get install -y libpq-dev
+  - pip install -r requirements.txt
+
 stages:
-  - install
+  - build
   - test
 
-variables:
-  FLASK_ENV: development
-
-install_dependencies:
-  stage: install
+build:
+  stage: build
   script:
-    - echo "Installing dependencies"
-    - python -m venv venv
-    - source venv/Scripts/activate
-    - pip install -r requirements.txt
+    - echo "Building Docker image"
+    - docker build -t flask_ci_app .
 
-run_tests:
+test:
   stage: test
   script:
-    - echo "Running tests"
-    - source venv/Scripts/activate
-    - pytest --junitxml=test-results.xml
-  artifacts:
-    paths:
-      - test-results.xml
+    - docker run --rm flask_ci_app pytest
